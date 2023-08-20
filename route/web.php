@@ -2,6 +2,7 @@
 
 namespace Imaarov\route;
 
+use Imaarov\App\Controller\HomeController;
 use Imaarov\Utils\Router;
 
-Router::get('\Imaarov\App\Controller\HomeController', 'index', '/home');
+Router::get(HomeController::class, 'index', '/home');
