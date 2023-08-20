@@ -1,0 +1,22 @@
+{
+    "name": "imaarov/mvc",
+    "description": "simple php microframework",
+    "autoload": {
+        "psr-4": {
+            "Imaarov\\App\\": "app/",
+            "Imaarov\\Utils\\": "utils/",
+            "Imaarov\\Service\\": "service/"
+        }
+    },
+    "authors": [
+        {
+            "name": "imaarov",
+            "email": "imanatarof@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "laravel/pint": "^1.0",
+        "phpunit/phpunit": "^10.1"
+    }
+}
