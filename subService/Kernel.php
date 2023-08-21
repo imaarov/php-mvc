@@ -1,9 +1,9 @@
 <?php
 
-namespace Imaarov\SubService;
+namespace Imaarov\subService;
 
-use Imaarov\SubService\Interface\SubServiceInterface;
-use Imaarov\SubService\Route\RouteServiceContainer;
+use Imaarov\subService\Interface\SubServiceInterface;
+use Imaarov\subService\Route\RouteServiceContainer;
 
 class Kernel
 {

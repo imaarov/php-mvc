@@ -1,6 +1,6 @@
 <?php
 namespace Imaarov\App\Controller;
-use Imaarov\SubService\Log\LogService;
+use Imaarov\subService\Log\LogService;
 
 class HomeController
 {

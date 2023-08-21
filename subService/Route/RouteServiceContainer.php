@@ -1,6 +1,6 @@
 <?php
 
-namespace Imaarov\SubService\Route;
+namespace Imaarov\subService\Route;
 use Imaarov\SubService\Interface\SubServiceInterface;
 use Imaarov\SubService\Log\LogService;
 

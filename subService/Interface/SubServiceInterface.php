@@ -1,6 +1,6 @@
 <?php
 
-namespace Imaarov\SubService\Interface;
+namespace Imaarov\subService\Interface;
 
 interface SubServiceInterface
 {
