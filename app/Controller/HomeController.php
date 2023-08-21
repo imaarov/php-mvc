@@ -1,12 +1,12 @@
 <?php
 namespace Imaarov\App\Controller;
-use Imaarov\Service\Log\LogService;
+use Imaarov\SubService\Log\LogService;
 
 class HomeController
 {
     public function index()
     {
-        LogService::log("YOU ARE IN CONTROLLER");
+        LogService::log("Test from controller");
         echo "hi from home controller";
     }
 }

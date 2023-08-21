@@ -1,9 +1,10 @@
 <?php
 
-namespace Imaarov\Service\Route;
-use Imaarov\Service\Log\LogService;
+namespace Imaarov\SubService\Route;
+use Imaarov\SubService\Interface\SubServiceInterface;
+use Imaarov\SubService\Log\LogService;
 
-class RouteServiceContainer
+class RouteServiceContainer implements SubServiceInterface
 {
     private static array $routes;
 
@@ -15,8 +16,10 @@ class RouteServiceContainer
         ];
     }
 
-    public static function dispatch(string $requestUri): bool
+    public function dispatch(?string $requestUri = null): bool
     {
+        if (! $requestUri)
+            $requestUri = $_SERVER['REQUEST_URI'];
         foreach (self::$routes as $url => $route) {
             if (preg_match($url . '/', $requestUri, $matches)) {
                 $controller = new $route['controller'];

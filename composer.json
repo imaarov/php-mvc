@@ -5,7 +5,7 @@
         "psr-4": {
             "Imaarov\\App\\": "app/",
             "Imaarov\\Utils\\": "utils/",
-            "Imaarov\\Service\\": "service/"
+            "Imaarov\\SubService\\": "SubService/"
         }
     },
     "authors": [

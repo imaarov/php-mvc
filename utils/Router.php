@@ -1,7 +1,7 @@
 <?php
 namespace Imaarov\Utils;
-use Imaarov\Service\Log\LogService;
-use Imaarov\Service\Route\RouteServiceContainer;
+use Imaarov\SubService\Log\LogService;
+use Imaarov\SubService\Route\RouteServiceContainer;
 
 class Router extends RouteServiceContainer
 {
